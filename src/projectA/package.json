@@ -1,0 +1,11 @@
+{
+  "name": "projectA",
+  "version": "1.0.0",
+  "scripts": {
+    "test:unit": "vitest --config vitest.config.unit.ts",
+    "test:integration": "vitest --config vitest.config.integration.ts"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
