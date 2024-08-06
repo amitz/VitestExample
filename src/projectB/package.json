@@ -2,8 +2,8 @@
   "name": "projectB",
   "version": "1.0.0",
   "scripts": {
-    "test:unit": "vitest --config vitest.config.unit.ts",
-    "test:integration": "vitest --config vitest.config.integration.ts"
+    "test:unit": "vitest --root test/unit --config vitest.config.unit.ts",
+    "test:integration": "vitest --root test/integration --config vitest.config.integration.ts"
   },
   "devDependencies": {
     "vitest": "^2.0.5"
